@@ -1,0 +1,29 @@
+.affinimelon{
+   text-align: center;
+   font-family: 'Baloo Tamma 2', cursive;
+}
+.affinimelon>h1{
+   color: #2056ba;
+   font-family: 'Rammetto One';
+}
+.affinimelon>h2{
+   color: #00843d;
+   font-family: 'Rammetto One';
+   font-size: 1.75rem;
+   margin-bottom: .5rem;
+}
+.affinimelon>p{
+   color: rgb(63, 63, 63);
+   padding: 0 12rem;
+   margin: 0rem;
+   font-size: 1.45rem;
+}
+
+#melonGame{
+   margin-top: 2rem;
+}
+
+.kelcy{
+   margin-right: 10px;
+}
+
