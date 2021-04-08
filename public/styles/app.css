@@ -1,29 +1,63 @@
-.affinimelon{
-   text-align: center;
-   font-family: 'Baloo Tamma 2', cursive;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #66e0ff;
 }
-.affinimelon>h1{
-   color: #2056ba;
-   font-family: 'Rammetto One';
+main {
+  padding: 1rem;
 }
-.affinimelon>h2{
-   color: #00843d;
-   font-family: 'Rammetto One';
-   font-size: 1.75rem;
-   margin-bottom: .5rem;
+.affinimelon {
+  text-align: left;
+  font-family: "Baloo Tamma 2", cursive;
+  max-width: 50rem;
+  margin: auto;
+
 }
-.affinimelon>p{
-   color: rgb(63, 63, 63);
-   padding: 0 12rem;
-   margin: 0rem;
-   font-size: 1.45rem;
+.affinimelon > h1 {
+  color: #2056ba;
+  font-family: "Rammetto One";
+  margin-top: 0;
+}
+.affinimelon > h2 {
+  color: #00843d;
+  font-family: "Rammetto One";
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.affinimelon > p {
+  color: rgb(63, 63, 63);
+  margin: 0rem;
+  font-size: 1.45rem;
+  line-height: 2.15rem;
+}
+#melonGame,.smallScreen {
+  margin-top: 2rem;
+}
+.kelcy {
+  margin-right: 10px;
+}
+.smallScreen{
+   display:none;
 }
 
-#melonGame{
-   margin-top: 2rem;
+@media (min-width:600px){
+   main{
+      padding: 4rem;
+   }
+   .affinimelon {
+      text-align: center;
+    }
 }
-
-.kelcy{
-   margin-right: 10px;
+@media (max-width: 824px) {
+  .gameContainer {
+    display: none;
+  }
+  .smallScreen {
+    display: block;
+    border: 3px solid #ff6666;
+    font-size: 1.45rem;
+    line-height: 2.15rem;
+    padding: 0 1rem;
+  }
 }
-
